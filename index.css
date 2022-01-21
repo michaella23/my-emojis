@@ -1,0 +1,74 @@
+html {
+    height: 100vh;
+    font-family: Baloo;
+}
+
+body {
+    padding: 10px;
+    background-image: url(images/galaxy.jpeg);
+    background-size: cover; 
+}
+
+#emoji-container {
+    background: rgba(0, 0, 0, 0.7);
+    border: black solid 2px;
+    border-radius: 10px;
+    padding: 25px 0;
+    margin: 40px;
+    text-align: center;
+}
+
+#emoji-container span {
+    margin: 10px;
+    font-size: 60px;
+}
+
+#push-btn,#unshift-btn {
+    background: rgba(0, 0, 0, 0.4);
+    border: black solid 2px;
+}
+
+#shift-btn,#pop-btn {
+    background: rgba(0, 0, 0, 0.4);
+    border: black solid 2px;
+}
+
+h1 {
+    letter-spacing: 2px;
+    text-align: center;
+    color: white;
+}
+
+input {
+    margin: 0 auto;
+    display: block;
+    border: none;
+    height: 50px;
+    background: rgba(245, 0, 250, 0.4);
+    border-radius: 8px;
+    text-align: center;
+    padding: 0 15px;
+}
+
+::placeholder {
+    color: rgba(255, 255, 0, 0.5);
+    font-weight: bold;
+}
+
+button {
+    font-family: Baloo;
+    letter-spacing: px;
+    background: darkcyan;
+    color: white;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 6px;
+    margin: 0 4px;
+}
+
+.buttons-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
